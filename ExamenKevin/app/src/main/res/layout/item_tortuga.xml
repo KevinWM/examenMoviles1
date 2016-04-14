@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ninja"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:textSize="25sp"
+            android:id="@+id/txtNombreAd" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20kg"
+            android:textColor="#000000"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/txtPesoAd" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Azul"
+            android:textColor="#000000"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/txtColorAd" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:text="Mordedora"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/txtRazaAd" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

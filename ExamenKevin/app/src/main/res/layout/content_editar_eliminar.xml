@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cr.ac.itcr.examenkevin.EditarELiminar"
+    tools:showIn="@layout/activity_editar_eliminar">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Nombre"
+            android:id="@+id/textView6" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eETxtNom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Peso"
+            android:id="@+id/textView7" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eETxtPeso" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Color"
+            android:id="@+id/textView8" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eETxtColor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="20dp"
+            android:text="Raza"
+            android:id="@+id/textView9" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/eETxtRaza" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="0.49">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:padding="35dp"
+                android:layout_height="wrap_content"
+                android:text="Modificar"
+                android:id="@+id/eEModificar" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:padding="35dp"
+                android:layout_height="wrap_content"
+                android:text="Eliminar"
+                android:id="@+id/eELiminar" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

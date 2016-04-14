@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cr.ac.itcr.examenkevin.About"
+    tools:showIn="@layout/activity_about">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Primer Examen"
+            android:textSize="25sp"
+            android:id="@+id/textView10"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:text="Desarrollo Aplicaciones Moviles"
+            android:id="@+id/textView11"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="Kevin Walsh Muñoz"
+            android:id="@+id/textView12"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="13/4/2016"
+            android:id="@+id/textView13"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>
